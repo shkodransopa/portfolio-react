@@ -1,3 +1,4 @@
+import { link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -23,16 +24,16 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "Javascript"],
     link: "https://ecommerce-html-f52p9vfj9-shkodransopas-projects.vercel.app/",
     
   },
   {
-    title: "Only Html Css",
+    title: "Prishtina",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS"],
     link:"https://only-html-css-brown.vercel.app/",
   },
   {
@@ -44,11 +45,12 @@ export const PROJECTS = [
     link: "https://portfolio-react-sage-six.vercel.app/",
   },
   {
-    title: "Full Stack",
+    title: "DatingApp",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["SQL", ".NET", "Angular.js", "SignalR"],
+    link: "https://dating-app-cs-c2hwh9badwb8hme0.germanywestcentral-01.azurewebsites.net/",
   },
 ];
 
